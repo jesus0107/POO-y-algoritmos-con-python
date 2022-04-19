@@ -11,6 +11,7 @@ class Automovil:
       self._motor.inyecta_gasolina(cantidad = 10)
     else:
       self._motor.inyecta_gasolina(cantidad = 3)
+      
     self._estado = "movimiento"
 
 
